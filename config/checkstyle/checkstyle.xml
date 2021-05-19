@@ -34,7 +34,6 @@
     <property name="optional" value="true"/>
   </module>
 
-  <module name="SuppressionCommentFilter"/>
   
   <!-- Checks for whitespace                               -->
   <!-- See http://checkstyle.org/config_whitespace.html -->
@@ -50,6 +49,7 @@
 
   <module name="TreeWalker">
     <module name="SuppressWarningsHolder" />
+    <module name="SuppressionCommentFilter"/>
     <module name="OuterTypeFilename"/>
     <module name="IllegalTokenText">
       <property name="tokens" value="STRING_LITERAL, CHAR_LITERAL"/>
