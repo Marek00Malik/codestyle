@@ -32,6 +32,12 @@
     </properties>
   </rule>
 
+  <rule ref="category/java/codestyle.xml/ShortClassName">
+    <properties>
+      <property name="minimum" value="3" />
+    </properties>
+  </rule>
+  
   <rule ref="category/java/codestyle.xml/LongVariable">
     <properties>
       <property name="minimum" value="50" />
@@ -57,7 +63,7 @@
 
   <rule ref="category/java/design.xml/TooManyMethods">
     <properties>
-      <property name="maxmethods" value="15"/>
+      <property name="maxmethods" value="20"/>
     </properties>
   </rule>
 
@@ -89,13 +95,7 @@
 
   <rule ref="category/java/design.xml/TooManyFields">
     <properties>
-      <property name="maxfields" value="17" />
-    </properties>
-  </rule>
-
-  <rule ref="category/java/design.xml/TooManyMethods">
-    <properties>
-      <property name="maxmethods" value="20" />
+      <property name="maxfields" value="20" />
     </properties>
   </rule>
 
